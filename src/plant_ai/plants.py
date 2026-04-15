@@ -1,3 +1,5 @@
+# Dictionnaire des plantes
+# Celui-ci comporte toutes les infos nécessaires sur les plantes
 plants = {
     "cactus": {
         "name": "Cactus",
@@ -17,11 +19,11 @@ plants = {
         
         "tolerances": {
             "humidity": {
-                "max": 5    # faible tolérance à l'excès d'eau
+                "max": 5    
             },
             "brightness": {
-                "min": 5,   # zone tampon pour manque de lumière
-                "max": 10   # peut tolérer beaucoup plus de lumière
+                "min": 5,   
+                "max": 10  
             }
         },
         
@@ -53,12 +55,12 @@ plants = {
         
         "tolerances": {
             "humidity": {
-                "min": 5,   # moyenne tolérance à la sécheresse
-                "max": 3    # très sensible à l'excès d'eau
+                "min": 5,   
+                "max": 3    
             },
             "brightness": {
-                "min": 5,   # sensible au manque de lumière
-                "max": 10   # peut tolérer plus de lumière
+                "min": 5,   
+                "max": 10   
             }
         },
         
@@ -91,12 +93,12 @@ plants = {
         
         "tolerances": {
             "humidity": {
-                "min": 3,   # très sensible à la sécheresse
-                "max": 3    # très sensible à l'excès d'eau
+                "min": 3,   
+                "max": 3    
             },
             "brightness": {
-                "min": 3,   # sensible au manque de lumière
-                "max": 5    # sensible à la lumière directe
+                "min": 3,   
+                "max": 5    
             }
         },
         
